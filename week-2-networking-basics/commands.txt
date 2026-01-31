@@ -1,0 +1,20 @@
+# Check network interfaces and IP addresses
+ip a
+
+# Test connection to localhost (your own computer)
+ping 127.0.0.1
+ping localhost
+
+# Test connection to an external website
+ping google.com
+# Stop with Ctrl + C
+
+# Resolve domain names to IP addresses
+nslookup google.com
+
+# Test HTTP and HTTPS connections
+curl http://example.com
+curl https://example.com
+
+# Check open ports and listening services
+ss -tuln
