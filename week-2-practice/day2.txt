@@ -1,0 +1,6 @@
+
+- Checked network interfaces using ip a
+- Pinged localhost and external sites
+- Verified DNS resolution with nslookup
+- Fetched web content using curl
+- Checked open ports with ssping google, nslookup google, curl example.com

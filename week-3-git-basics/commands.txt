@@ -1,0 +1,37 @@
+# Week 3 Git Commands
+
+# Check repository status
+git status
+
+# Add file to staging
+git add filename
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "message"
+
+# View commit history
+git log --oneline
+
+# Compare changes
+git diff
+
+# Push to GitHub
+git push origin main
+
+# Pull latest changes
+git pull origin main
+
+# Clone repository
+git clone <repo-url>
+
+# Create new branch
+git branch branch-name
+
+# Switch branch
+git checkout branch-name
+
+# Create and switch branch
+git checkout -b branch-name
